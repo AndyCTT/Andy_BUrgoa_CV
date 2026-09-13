@@ -350,21 +350,18 @@ legend {
 }
 .video_contenedor {
     width: 100%;
-    padding: 8px;
-    margin: 20px 0;
-    box-sizing: border-box;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    margin: 20px auto 0;
+    overflow: hidden;
     border-radius: 15px;
-    background: linear-gradient(
-        45deg,
-        #3a1f6b,
-        #1f3a6b,
-        #144a54
-    );
+    background: #000;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
-.video_contenedor video {
+.video_contenedor iframe {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
-    border-radius: 10px;
+    border: none;
 }
