@@ -376,20 +376,26 @@
       </div>
     </section>
 
+    ```html
     <section id="video_favorito" class="seccion">
       <h2 class="seccion_titulo">Un poco de mí</h2>
-
+    
       <div class="tarjeta animar_aparicion">
         <p>Esta es una canción que me gusta mucho.</p>
-
+    
         <div class="video_contenedor">
-          <video controls>
-            <source src="assets/video/LP.mp4" type="video/mp4">
-            tu navegador no puede reproducir este video.
-          </video>
+          <iframe
+            src="https://www.youtube.com/embed/wDjeBNv6ip0"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
+```
+
 
     <section id="contacto" class="seccion">
       <h2 class="seccion_titulo">Contacto</h2>
